@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <title>Murasaki-Cafe - Inicio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- init of header  -->
+    <header class="title-container">
+        <h1 id="title">Murasaki-Cafe</h1>
+        <nav>
+            <ul class="nav-container">
+                <li class="nav-element active"><a href="index.html">Inicio</a></li>
+                <li class="nav-element"><a href="menu.html">Menú</a></li>
+                <li class="nav-element"><a href="events-reservation.html">Reserva de Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header  -->
+    <section id="history">
+        <div>
+            <p id="history-text">Lorem ipsum dolor sit amet consectetur,neque iure libero maiores nostrum necessitatibus exercitationem expedita repellat velit sit id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ea beatae sit? Vel sapiente quisquam, aliquam esse doloremque accusantium dolorem. Eum, earum amet. Modi corrupti ad minus quas! Asperiores, ut?</p>
+        </div>
+    </section>
+    <main id="main-content">
+        <section class="col text-center">
+            <article class="row">
+                <h2>No sólo somos un café</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel natus placeat iure consectetur soluta quam alias maiores eius obcaecati! Animi, quidem eum explicabo perferendis odit adipisci laudantium fuga vero nulla!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel natus placeat iure consectetur soluta quam alias maiores eius obcaecati! Animi, quidem eum explicabo perferendis odit adipisci laudantium fuga vero nulla!</p>
+            </article>
+            <article class="row">
+                <h2>Somos cerveza!</h2>
+                <img src="img/beer.webp" alt="Imagen de Cervezas Bien frías" id="beer-image">
+            </article>
+        </section>
+    </main>
+    <section class="col cake-section">
+        <div class="row"><img class="cake-section-img" src="img/choco-cake.webp" alt="Imagen de Pasteles Deliciosos de Chocolate"></div>
+        <div class="row"><img class="cake-section-img" src="img/stawberry-cake.webp" alt="Imagen de Pasteles Deliciosos de Fresa"></div>
+    </section>
+    <section id="form-data">
+        <h2 class="text-center">Contáctanos</h2>
+        <form action="process.php" method="get">
+            <div class="col">
+                <div class="row form-data-row">
+                    <label for="name">Nombre:</label>
+                    <label for="email">Correo:</label>
+                    <label for="phone-2">Telefono</label>
+                </div>
+                <div class="row form-data-row">
+                    <input type="text" name="name" id="name">
+                    <input type="email" name="email" id="email">
+                    <div>
+                        <select name="phone-1" id="phone-1">
+                            <option value="0414">0414</option>
+                            <option value="0424">0424</option>
+                            <option value="0416">0416</option>
+                            <option value="0412">0412</option>
+                            <option value="0212">0212</option>
+                            <option value="0426">0426</option>
+                        </select>
+                        <input type="tel" name="phone-2" id="phone-2">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="text-center">
+            <button>Send!</button>
+        </div>
+    </section>
+    <footer>
+        <section></section>
+    </footer>
+</body>
+</html>

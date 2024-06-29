@@ -1,0 +1,97 @@
+#title{
+    text-align: center;
+    font-size: 34px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+ul.nav-container{
+    border-right: none;
+}
+
+.nav-element{
+    padding-right: 8px;
+    border-right: solid 2px black;
+    margin-right: 10px;
+}
+.nav-element.active a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+#history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#history > div{
+    display: block;
+    width: 450px;
+}
+
+.col{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.row{
+    display: block;
+    width: 450px;
+}
+#beer-image{
+    height: 150px;
+}
+
+p{
+    font-family: "Roboto";
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Playwrite ES Deco", cursive;
+}
+
+.cake-section{
+    padding: 25px;
+    border: solid 1px black;
+    border-radius: 35px;
+    margin: 0px 50px;
+}
+
+.cake-section-img{
+    width: 50%;
+    height: 25%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#main-content{
+    margin-bottom: 80px;
+}
+
+#form-data{
+    padding: 25px;
+    border: solid 1px black;
+    border-radius: 35px;
+    margin: 0px 50px;
+}
+
+#form-data >form > div{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#form-data >form > div >input{
+    font-size: 12px;
+}
+.form-data-row >label , .form-data-row>input,.form-data-row > select{
+    display: block;
+}
